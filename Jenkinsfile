@@ -13,7 +13,7 @@ pipeline {
         }
 
         script {
-          final job1Result = build ('blue/BlueOcean')
+          final job1Result = build ('blue/blueOcean')
           STAGE1=${jobresult.number}
         }
 
